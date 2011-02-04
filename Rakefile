@@ -1,4 +1,4 @@
-require 'tasks/db_migration_scaffolder'
+require 'lib/db_migration_scaffolder'
 
 task :default => :migrate
 
