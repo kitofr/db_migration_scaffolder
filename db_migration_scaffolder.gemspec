@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email            = "kitofr@gmail.com"
   s.homepage         = "http://github.com/kitofr/db_migration_scaffolder"
 
-  s.add_dependency("rake", "~>0.8.7")
+  s.add_dependency "rake", ">= 12.3.3"
   # = MANIFEST =
   s.files = %w[
     README
